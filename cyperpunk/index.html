@@ -1,0 +1,1036 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap-grid.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="./images/pngegg (4).png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>CyberPunk</title>
+  </head>
+  <body>
+    <!-- --- LOADER --- -->
+    <div class="parent-loading">
+      <div class="spinner-container">
+        <div class="spinner">
+          <div class="spinner">
+            <div class="spinner">
+              <div class="spinner">
+                <div class="spinner">
+                  <div class="spinner"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- --- LOADER --- -->
+
+    <!-- ##################### START NAVBAR ##################### -->
+    <nav>
+      <div class="logo">
+        <img src="./images/19Visuals LOGO 2.png" alt="Logo Image" />
+      </div>
+      <div class="hamburger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Explore</a></li>
+        <li><a href="#">Creators</a></li>
+        <li><a href="#">Pages</a></li>
+        <li><a href="#">Forum</a></li>
+        <li><a href="#">Contact</a></li>
+
+        <!-- START INPUT SEARCH -->
+        <div class="input-container">
+          <input
+            type="text"
+            name="text"
+            class="input"
+            placeholder="Search keyword"
+          />
+          <span class="icon">
+            <svg
+              width="19px"
+              height="19px"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <path
+                  opacity="1"
+                  d="M14 5H20"
+                  stroke="#000"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+                <path
+                  opacity="1"
+                  d="M14 8H17"
+                  stroke="#000"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+                <path
+                  d="M21 11.5C21 16.75 16.75 21 11.5 21C6.25 21 2 16.75 2 11.5C2 6.25 6.25 2 11.5 2"
+                  stroke="#000"
+                  stroke-width="2.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+                <path
+                  opacity="1"
+                  d="M22 22L20 20"
+                  stroke="#000"
+                  stroke-width="3.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </g>
+            </svg>
+          </span>
+        </div>
+        <!-- END INPUT SEARCH -->
+
+        <button class="navbar-btn btn-hover color-2">Connect Wallet</button>
+
+        <img class="navigation-logo" src="./images/Asset 3 1.png" alt="" />
+      </ul>
+    </nav>
+    <!-- ##################### START NAVBAR ##################### -->
+
+    <!-- ##################### START LANDING ##################### -->
+    <div class="landing">
+      <div class="container">
+        <div class="content">
+          <div class="squares">
+            <div class="square square-one"></div>
+            <div class="square square-two"></div>
+            <div class="square square-three"></div>
+          </div>
+
+          <h1 class="mt-5">
+            Discover Digital <br />
+            Artworks & <br />
+            Collect <br />
+            Best <span class="inp" style="color: #ff7a00">...</span>
+          </h1>
+          <p>
+            There is enough digital artworks available online to help you put
+            together crypto currency website.
+          </p>
+          <div class="landing-buttons mt-4">
+            <button class="navbar-btn btn-hover color-2">Explore Now</button>
+            <div class="watch-video">
+              <i class="fa-sharp fa-solid fa-play"></i>
+              <span>Watch Video</span>
+            </div>
+          </div>
+          <div class="likes mt-5">
+            <div class="first-lks">
+              <h2>85k+</h2>
+              <p class="lks-pargs">Digital Artworks</p>
+            </div>
+            <div class="second-lks">
+              <h2>25k+</h2>
+              <p class="lks-pargs">Global Creatos</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="landing-img">
+          <img
+            src="./images/Vector.png"
+            class="vector-landing"
+            style="max-width: 100%"
+            alt=""
+          />
+          <img src="./images/Group 5.png" class="croup-5-landing" alt="" />
+        </div>
+
+        <div class="arrow-img">
+          <img src="./images/Vector-arrow.png" alt="" />
+        </div>
+      </div>
+      <a href="#first-section">
+        <div class="animate-down-icon">
+          <i class="fa-solid fa-angles-down"></i>
+        </div>
+      </a>
+    </div>
+    <!-- ##################### END LANDING ##################### -->
+
+    <!-- --- scroll btn --- -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      <i class="fa-solid fa-chevron-up"></i>
+    </button>
+    <!-- --- scroll btn --- -->
+
+    <!-- ##################### START FIRST SECTION ##################### -->
+    <div
+      class="first-section pt-5 pb-5"
+      id="first-section"
+      data-aos="zoom-in-up"
+    >
+      <div class="main-title">
+        <div class="wrapper">
+          <div class="btn">
+            <p>Set Your Wallet</p>
+            <span class="BorderTopBottom"></span>
+            <span class="BorderLeftRight"></span>
+          </div>
+        </div>
+        <p class="title-parg mt-4">
+          Here are a few reasons why you should choose 19visuals
+        </p>
+      </div>
+      <div class="container">
+        <div class="box">
+          <img src="./images/Group 73.png" alt="" />
+        </div>
+        <div class="box">
+          <img src="./images/Group 74.png" alt="" />
+        </div>
+        <div class="box">
+          <img src="./images/Group 75.png" alt="" />
+        </div>
+        <div class="box">
+          <img src="./images/Group 76.png" alt="" />
+        </div>
+        <div class="box">
+          <img src="./images/Group 77.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div class="frs-sec-part-two pt-5 pb-5" data-aos="zoom-in-up">
+      <h3 class="frs-live-title">Live Bids</h3>
+      <div class="container">
+        <div class="box">
+          <img src="./images/Mask group.png" alt="" />
+          <div class="content">
+            <div class="usr-roow">
+              <img src="./images/OBJECTS.png" alt="" /><span class="usr-spn"
+                >@00000</span
+              >
+            </div>
+            <h4>KNOWN NFT</h4>
+            <p class="current-parg">Current Bid</p>
+            <div class="activity-info">
+              <p>00.00 ETH</p>
+              <span>Activity</span>
+            </div>
+            <button
+              class="navbar-btn btn-hover color-2"
+              style="width: 100%; font-weight: 600"
+            >
+              Place Bid
+            </button>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="./images/Mask group (1).png" alt="" />
+          <div class="content">
+            <div class="usr-roow">
+              <img src="./images/OBJECTS.png" alt="" /><span class="usr-spn"
+                >@00000</span
+              >
+            </div>
+            <h4>KNOWN NFT</h4>
+            <p class="current-parg">Current Bid</p>
+            <div class="activity-info">
+              <p>00.00 ETH</p>
+              <span>Activity</span>
+            </div>
+            <button
+              class="navbar-btn btn-hover color-2"
+              style="width: 100%; font-weight: 600"
+            >
+              Place Bid
+            </button>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="./images/Mask group (2).png" alt="" />
+          <div class="content">
+            <div class="usr-roow">
+              <img src="./images/OBJECTS.png" alt="" /><span class="usr-spn"
+                >@00000</span
+              >
+            </div>
+            <h4>KNOWN NFT</h4>
+            <p class="current-parg">Current Bid</p>
+            <div class="activity-info">
+              <p>00.00 ETH</p>
+              <span>Activity</span>
+            </div>
+            <button
+              class="navbar-btn btn-hover color-2"
+              style="width: 100%; font-weight: 600"
+            >
+              Place Bid
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="arrow-line">
+        <img src="./images/Vector-line.png" alt="" />
+      </div>
+      <div class="arrow-right-down-img">
+        <img src="./images/Group 82.png" alt="" />
+      </div>
+      <div class="arrow-up-frs">
+        <img src="./images/Vector-arrow.png" alt="" />
+      </div>
+    </div>
+    <!-- ##################### END FIRST SECTION ##################### -->
+
+    <!-- ##################### START SECOND SECTION ##################### -->
+    <div class="second-section pt-5 pb-5" data-aos="zoom-in-up">
+      <div class="main-title">
+        <div class="wrapper">
+          <div class="btn">
+            <p class="category-parg">Browse by Category</p>
+            <span class="BorderTopBottom"></span>
+            <span class="BorderLeftRight"></span>
+          </div>
+        </div>
+        <p class="title-parg mt-4">
+          Here are a few reasons why you should choose 19visuals for sell your
+          NFT
+        </p>
+      </div>
+      <div class="container">
+        <div class="box">
+          <img src="./images/Mask-group-the-weeknd.png" alt="" />
+          <p>3D Artwork</p>
+        </div>
+        <div class="box">
+          <img src="./images/Mask-group-the-weeknd-two.png" alt="" />
+          <p>Video & Music</p>
+        </div>
+        <div class="box">
+          <img src="./images/Mask-group-the-weeknd-three.png" alt="" />
+          <p>Trading Elements</p>
+        </div>
+        <div class="box">
+          <img src="./images/Mask-group-the-weeknd-four.png" alt="" />
+          <p>Photography</p>
+        </div>
+        <div class="box">
+          <img src="./images/Mask-group-the-weeknd-five.png" alt="" />
+          <p>PSD Mockup</p>
+        </div>
+        <div class="box">
+          <img src="./images/Mask-group-the-weeknd-six.png" alt="" />
+          <p>Historical Book</p>
+        </div>
+        <div class="box">
+          <img src="./images/Mask-group-the-weeknd-seven.png" alt="" />
+          <p>Game & Software</p>
+        </div>
+        <div class="box">
+          <img src="./images/Mask-group-the-weeknd-eight.png" alt="" />
+          <p>Photo & Image</p>
+        </div>
+      </div>
+    </div>
+    <!-- ##################### END SECOND SECTION ##################### -->
+
+    <!-- ##################### START THIRD SECTION ##################### -->
+    <div class="third-section pt-5 pb-5" data-aos="zoom-in-up">
+      <div class="container">
+        <div class="first-col">
+          <h3>Top Creator</h3>
+          <div class="roow">
+            <div class="image">
+              <img src="./images/Asset 3 1.png" alt="" />
+            </div>
+            <div class="info">
+              <p>Stive Machman</p>
+              <span>@machman</span>
+              <p>820 Created</p>
+            </div>
+          </div>
+
+          <div class="roow">
+            <div class="image">
+              <img src="./images/Asset 3 1.png" alt="" />
+            </div>
+            <div class="info">
+              <p>Toni fraser</p>
+              <span>@Fraser</span>
+              <p>54 Created</p>
+            </div>
+          </div>
+
+          <div class="roow">
+            <div class="image">
+              <img src="./images/Asset 3 1.png" alt="" />
+            </div>
+            <div class="info">
+              <p>John Schreffler</p>
+              <span>@john.874</span>
+              <p>870 Created</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="second-col">
+          <!-- --- dropdown menu --- -->
+          <div class="icn-drop">
+            <div class="dropdown">
+              <button class="dropbtn">1 Day</button>
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </div>
+            <i class="fa-solid fa-caret-down"></i>
+          </div>
+          <!-- --- dropdown menu --- -->
+          <div class="roow">
+            <div class="image">
+              <img src="./images/Asset 3 1.png" alt="" />
+            </div>
+            <div class="info">
+              <p>arianna scholes</p>
+              <span>@arianna</span>
+              <p>34 Created</p>
+            </div>
+          </div>
+
+          <div class="roow">
+            <div class="image">
+              <img src="./images/Asset 3 1.png" alt="" />
+            </div>
+            <div class="info">
+              <p>Mary Callahan</p>
+              <span>@mary.hano</span>
+              <p>720 Created</p>
+            </div>
+          </div>
+
+          <div class="roow">
+            <div class="image">
+              <img src="./images/Asset 3 1.png" alt="" />
+            </div>
+            <div class="info">
+              <p>Mary Callahan</p>
+              <span>@mary.hano</span>
+              <p>720 Created</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="third-col">
+          <h3>Top Seller</h3>
+          <div class="roow">
+            <div class="image">
+              <img src="./images/Asset 3 1.png" alt="" />
+            </div>
+            <div class="info">
+              <p>Jeffrey Hayes</p>
+              <span>@jerrifo</span>
+              <p>880 Created</p>
+            </div>
+          </div>
+
+          <div class="roow">
+            <div class="image">
+              <img src="./images/Asset 3 1.png" alt="" />
+            </div>
+            <div class="info">
+              <p>Stive Machman</p>
+              <span>@machman</span>
+              <p>820 Created</p>
+            </div>
+          </div>
+
+          <div class="roow">
+            <div class="image">
+              <img src="./images/Asset 3 1.png" alt="" />
+            </div>
+            <div class="info">
+              <p>Walter Russell</p>
+              <span>@russell</span>
+              <p>82 Created</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="fourth-col">
+          <!-- --- dropdown menu --- -->
+          <div class="icn-drop">
+            <div class="dropdown">
+              <button class="dropbtn">1 Day</button>
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </div>
+            <i class="fa-solid fa-caret-down"></i>
+          </div>
+          <!-- --- dropdown menu --- -->
+          <div class="roow">
+            <div class="image">
+              <img src="./images/Asset 3 1.png" alt="" />
+            </div>
+            <div class="info">
+              <p>Patricia Stephens</p>
+              <span>@stephens</span>
+              <p>820 Created</p>
+            </div>
+          </div>
+
+          <div class="roow">
+            <div class="image">
+              <img src="./images/Asset 3 1.png" alt="" />
+            </div>
+            <div class="info">
+              <p>Jobanico Mina</p>
+              <span>@jobanico</span>
+              <p>80 Created</p>
+            </div>
+          </div>
+
+          <div class="roow">
+            <div class="image">
+              <img src="./images/Asset 3 1.png" alt="" />
+            </div>
+            <div class="info">
+              <p>Mary Callahan</p>
+              <span>@mary.hano</span>
+              <p>720 Created</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ##################### END THIRD SECTION ##################### -->
+
+    <!-- ##################### START EXPLORE SECTION ##################### -->
+    <div class="title-col pt-5" data-aos="zoom-in-up">
+      <div class="container">
+        <div class="heading-two-title"><h2>Explore Artworks</h2></div>
+        <div class="dropdowns-parent">
+          <!-- --- dropdown menu --- -->
+          <div class="icn-drop">
+            <div class="dropdown">
+              <button class="dropbtn">Sale Type</button>
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </div>
+            <i class="fa-solid fa-caret-down"></i>
+          </div>
+          <!-- --- dropdown menu --- -->
+
+          <!-- --- dropdown menu --- -->
+          <div class="icn-drop">
+            <div class="dropdown">
+              <button class="dropbtn">Category</button>
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </div>
+            <i class="fa-solid fa-caret-down"></i>
+          </div>
+          <!-- --- dropdown menu --- -->
+
+          <!-- --- dropdown menu --- -->
+          <div class="icn-drop">
+            <div class="dropdown">
+              <button class="dropbtn">Status</button>
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </div>
+            <i class="fa-solid fa-caret-down"></i>
+          </div>
+          <!-- --- dropdown menu --- -->
+
+          <!-- --- dropdown menu --- -->
+          <div class="icn-drop">
+            <div class="dropdown">
+              <button class="dropbtn">Price</button>
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </div>
+            <i class="fa-solid fa-caret-down"></i>
+          </div>
+          <!-- --- dropdown menu --- -->
+        </div>
+      </div>
+    </div>
+
+    <div class="explore-section pt-5 pb-5" data-aos="zoom-in-up">
+      <div class="container">
+        <div class="box">
+          <img class="cpm-cls" src="./images/Mask group-capom.png" alt="" />
+          <div class="content">
+            <div class="usr-roow">
+              <img src="./images/OBJECTS.png" alt="" /><span class="usr-spn"
+                >@00000</span
+              >
+            </div>
+            <h4>KNOWN NFT</h4>
+            <p class="current-parg">Current Bid</p>
+            <div class="activity-info">
+              <p>00.00 ETH</p>
+              <span>Activity</span>
+            </div>
+            <button
+              class="navbar-btn btn-hover color-2"
+              style="width: 100%; font-weight: 600"
+            >
+              Place Bid
+            </button>
+          </div>
+        </div>
+
+        <div class="box">
+          <img class="cpm-cls" src="./images/Mask group-men.png" alt="" />
+          <div class="content">
+            <div class="usr-roow">
+              <img src="./images/OBJECTS.png" alt="" /><span class="usr-spn"
+                >@00000</span
+              >
+            </div>
+            <h4>KNOWN NFT</h4>
+            <p class="current-parg">Current Bid</p>
+            <div class="activity-info">
+              <p>00.00 ETH</p>
+              <span>Activity</span>
+            </div>
+            <button
+              class="navbar-btn btn-hover color-2"
+              style="width: 100%; font-weight: 600"
+            >
+              Place Bid
+            </button>
+          </div>
+        </div>
+
+        <div class="box">
+          <img class="cpm-cls" src="./images/Mask group-balon.png" alt="" />
+          <div class="content">
+            <div class="usr-roow">
+              <img src="./images/OBJECTS.png" alt="" /><span class="usr-spn"
+                >@00000</span
+              >
+            </div>
+            <h4>KNOWN NFT</h4>
+            <p class="current-parg">Current Bid</p>
+            <div class="activity-info">
+              <p>00.00 ETH</p>
+              <span>Activity</span>
+            </div>
+            <button
+              class="navbar-btn btn-hover color-2"
+              style="width: 100%; font-weight: 600"
+            >
+              Place Bid
+            </button>
+          </div>
+        </div>
+
+        <div class="box">
+          <img class="cpm-cls" src="./images/Mask group-fire.png" alt="" />
+          <div class="content">
+            <div class="usr-roow">
+              <img src="./images/OBJECTS.png" alt="" /><span class="usr-spn"
+                >@00000</span
+              >
+            </div>
+            <h4>KNOWN NFT</h4>
+            <p class="current-parg">Current Bid</p>
+            <div class="activity-info">
+              <p>00.00 ETH</p>
+              <span>Activity</span>
+            </div>
+            <button
+              class="navbar-btn btn-hover color-2"
+              style="width: 100%; font-weight: 600"
+            >
+              Place Bid
+            </button>
+          </div>
+        </div>
+
+        <div class="box">
+          <img class="cpm-cls" src="./images/Mask group-snow.png" alt="" />
+          <div class="content">
+            <div class="usr-roow">
+              <img src="./images/OBJECTS.png" alt="" /><span class="usr-spn"
+                >@00000</span
+              >
+            </div>
+            <h4>KNOWN NFT</h4>
+            <p class="current-parg">Current Bid</p>
+            <div class="activity-info">
+              <p>00.00 ETH</p>
+              <span>Activity</span>
+            </div>
+            <button
+              class="navbar-btn btn-hover color-2"
+              style="width: 100%; font-weight: 600"
+            >
+              Place Bid
+            </button>
+          </div>
+        </div>
+
+        <div class="box">
+          <img class="cpm-cls" src="./images/Mask groupm-board.png" alt="" />
+          <div class="content">
+            <div class="usr-roow">
+              <img src="./images/OBJECTS.png" alt="" /><span class="usr-spn"
+                >@00000</span
+              >
+            </div>
+            <h4>KNOWN NFT</h4>
+            <p class="current-parg">Current Bid</p>
+            <div class="activity-info">
+              <p>00.00 ETH</p>
+              <span>Activity</span>
+            </div>
+            <button
+              class="navbar-btn btn-hover color-2"
+              style="width: 100%; font-weight: 600"
+            >
+              Place Bid
+            </button>
+          </div>
+        </div>
+
+        <div class="box">
+          <img class="cpm-cls" src="./images/Mask group-towers.png" alt="" />
+          <div class="content">
+            <div class="usr-roow">
+              <img src="./images/OBJECTS.png" alt="" /><span class="usr-spn"
+                >@00000</span
+              >
+            </div>
+            <h4>KNOWN NFT</h4>
+            <p class="current-parg">Current Bid</p>
+            <div class="activity-info">
+              <p>00.00 ETH</p>
+              <span>Activity</span>
+            </div>
+            <button
+              class="navbar-btn btn-hover color-2"
+              style="width: 100%; font-weight: 600"
+            >
+              Place Bid
+            </button>
+          </div>
+        </div>
+
+        <div class="box">
+          <img
+            class="cpm-cls"
+            src="./images/Mask group-fire-circle.png"
+            alt=""
+          />
+          <div class="content">
+            <div class="usr-roow">
+              <img src="./images/OBJECTS.png" alt="" /><span class="usr-spn"
+                >@00000</span
+              >
+            </div>
+            <h4>KNOWN NFT</h4>
+            <p class="current-parg">Current Bid</p>
+            <div class="activity-info">
+              <p>00.00 ETH</p>
+              <span>Activity</span>
+            </div>
+            <button
+              class="navbar-btn btn-hover color-2"
+              style="width: 100%; font-weight: 600"
+            >
+              Place Bid
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ##################### END EXPLORE SECTION ##################### -->
+
+    <!-- ##################### START POPULAR COLLECTION SECTION ##################### -->
+    <div class="popular-section pt-5 pb-5" data-aos="zoom-in-right">
+      <div class="main-title">
+        <div class="wrapper">
+          <div class="btn">
+            <p>Popular Collection</p>
+            <span class="BorderTopBottom"></span>
+            <span class="BorderLeftRight"></span>
+          </div>
+        </div>
+        <p class="title-parg mt-4">
+          Browse most popular collections and Choose between auctions
+        </p>
+      </div>
+      <div class="container">
+        <main>
+          <div class="container" id="container">
+            <div class="image-container">
+              <img
+                class="image-before slider-image"
+                src="./images/shutterstock_1317171665-scaled.jpg"
+                alt="color photo"
+              />
+              <img
+                class="image-after slider-image"
+                src="./images/shutterstock_1317171665-scaled_00009.jpg"
+                alt="black and white"
+              />
+            </div>
+            <!-- step="10" -->
+            <input
+              type="range"
+              min="0"
+              max="100"
+              value="50"
+              aria-label="Percentage of before photo shown"
+              class="slider"
+            />
+            <div class="slider-line" aria-hidden="true"></div>
+            <div class="slider-button" aria-hidden="true">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                fill="currentColor"
+                viewBox="0 0 256 256"
+              >
+                <rect width="256" height="256" fill="none"></rect>
+                <line
+                  x1="128"
+                  y1="40"
+                  x2="128"
+                  y2="216"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="16"
+                ></line>
+                <line
+                  x1="96"
+                  y1="128"
+                  x2="16"
+                  y2="128"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="16"
+                ></line>
+                <polyline
+                  points="48 160 16 128 48 96"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="16"
+                ></polyline>
+                <line
+                  x1="160"
+                  y1="128"
+                  x2="240"
+                  y2="128"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="16"
+                ></line>
+                <polyline
+                  points="208 96 240 128 208 160"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="16"
+                ></polyline>
+              </svg>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+    <!-- ##################### END POPULAR COLLECTION SECTION ##################### -->
+
+    <!-- ##################### START LAST SECTION ##################### -->
+    <div class="last-section pt-5 pb-5" data-aos="zoom-in-up">
+      <div class="main-title">
+        <div class="wrapper">
+          <div class="btn">
+            <p>Create and sell</p>
+            <span class="BorderTopBottom"></span>
+            <span class="BorderLeftRight"></span>
+          </div>
+        </div>
+        <p class="title-parg mt-4">
+          Browse most popular collections and Choose between auctions
+        </p>
+      </div>
+      <div class="container">
+        <div class="box">
+          <div class="numbers">01</div>
+          <div class="image">
+            <img src="./images/Group-last-sec-one.png" alt="" />
+          </div>
+          <h4>Connect your wallet</h4>
+          <p>
+            NFTs are the latest and greatest application of blockchain
+            technology, and marketplace has become theplatform for NFT.
+          </p>
+        </div>
+
+        <div class="box">
+          <div class="numbers">02</div>
+          <div class="image">
+            <img src="./images/Group-80-last-sec-two.png" alt="" />
+          </div>
+          <h4>Create Collection</h4>
+          <p>
+            19visuals is the premier marketplace for which are digital items you
+            can truly own. Digital Items have existed like this.
+          </p>
+        </div>
+
+        <div class="box">
+          <div class="numbers">03</div>
+          <div class="image">
+            <img src="./images/Group-81-last-sec-three.png" alt="" />
+          </div>
+          <h4>List them to sale</h4>
+          <p>
+            List the collection & artworks to the blockchain network acts as the
+            decentralized ledger that tracks the ownership.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- ##################### END LAST SECTION ##################### -->
+
+    <!-- ##################### START FOOTER ##################### -->
+    <div class="footer pt-5">
+      <div class="container">
+        <div class="first-col same-st">
+          <img src="./images/19Visuals LOGO 2.png" alt="" />
+          <p>
+            We provide one-stop solutions for all IT items; your bliss is just a
+            click away. Star Tech trusts in quality client
+          </p>
+          <div class="icons">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-pinterest-p"></i>
+            <i class="fa-brands fa-behance"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+          </div>
+        </div>
+
+        <div class="second-col same-st">
+          <h4>Marketplace</h4>
+          <ul>
+            <li>Proper Guidelines</li>
+            <li>Buy Products</li>
+            <li>Compare Us</li>
+            <li>Career</li>
+            <li>Build Ecommerce</li>
+          </ul>
+        </div>
+
+        <div class="third-col same-st">
+          <h4>Explore Artworks</h4>
+          <ul>
+            <li>3D Artworks</li>
+            <li>Photography</li>
+            <li>Flat Illustration</li>
+            <li>Painting</li>
+            <li>Intro Videos</li>
+          </ul>
+        </div>
+
+        <div class="forth-col same-st">
+          <h4>Insight Community</h4>
+          <ul>
+            <li>Global Partners</li>
+            <li>Forum</li>
+            <li>Virtual World</li>
+            <li>Community</li>
+            <li>Brand Assets</li>
+          </ul>
+        </div>
+      </div>
+      <!-- ##################### START COPYRIGHT ##################### -->
+      <div class="copyright pt-5">
+        <div class="copy-col">
+          <h5>© Copyright 2033</h5>
+          <img src="./images/Group-95-copyright-headphones.png" alt="" />
+          <img src="./images/Group-100-copyright-send-email.png" alt="" />
+        </div>
+      </div>
+      <!-- ##################### END COPYRIGHT ##################### -->
+    </div>
+    <!-- ##################### END START FOOTER ##################### -->
+
+    <script>
+      setTimeout(function () {
+        $(".parent-loading").fadeToggle();
+      }, 3000);
+    </script>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({ duration: 2500 });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
